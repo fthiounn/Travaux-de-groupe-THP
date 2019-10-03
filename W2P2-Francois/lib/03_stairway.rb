@@ -189,7 +189,7 @@ def print_game_state (game_state, count)
 			puts "             ___|4"
 			puts "          ___|3"
 			puts "       ___|2"
-			puts "    ___|1    "            
+			puts "    ___|1          You rolled the dice #{count} times"            
 			puts " ___|0             You are at Step : 5"
 		when 6
 			puts ""
@@ -350,9 +350,6 @@ def average_finish_time
 	return count
 end
 
-
-
-
 #regles du jeu
 def rules
 
@@ -373,17 +370,5 @@ def rules
 	print "PESS ANY KEY TO CONTINUE  >  "
 	gets
 end
-
-
-
-
-
-
-
-
-
-
-
-
 
 perform
